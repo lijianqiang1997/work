@@ -1,0 +1,20 @@
+{
+    "name": "ya-pc-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jinhu",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.3.1",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-html-minify": "0.0.14",
+        "gulp-postcss": "^8.0.0",
+        "postcss-cssnext": "^3.1.0",
+        "postcss-px-to-viewport": "0.0.3"
+    }
+}

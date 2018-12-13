@@ -1,0 +1,7 @@
+#produced by software
+.idea
+
+# package-lock.json and node_modules
+
+node_modules
+

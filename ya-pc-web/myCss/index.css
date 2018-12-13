@@ -1,0 +1,95 @@
+:root {
+    --a-color: #000;
+    --offset: 6.8292682927px;
+    --increamentRadius: 7.081707317px;
+}
+.images>div {
+    position: relative;
+    margin-top: 78px;
+}
+
+.images .inline-block:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 1em;
+    margin: auto;
+    line-height: 1;
+    content: attr(title);
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.images .inline-block {
+    position: relative;
+    border-radius: 50%;
+    color: #faf0e9;
+    overflow: hidden;
+}
+
+.images>div:nth-child(3n+1) .inline-block {
+    box-shadow: var(--offset) var(--offset) 0 var(--increamentRadius);
+}
+
+.images>div:nth-child(3n+2) .inline-block {
+    box-shadow: 0 calc(var(--offset) + var(--offset)) 0 var(--increamentRadius);
+}
+
+.images>div:nth-child(3n) .inline-block {
+    box-shadow: calc(-1 * var(--offset)) var(--offset) 0 var(--increamentRadius);
+}
+
+.images img .images img:after {
+    content: attr(alt);
+    font-size: 36px;
+    color: #fff;
+}
+
+.images .inline-block .image-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 320px;
+    height: 36.25%;
+    background: #dd2723;
+}
+
+.images .inline-block .image-content p:first-child {
+    margin-top: .6em;
+}
+
+.line {
+    height: 0;
+    border-top: 1px solid #ccc;
+    line-height: 0;
+}
+
+.line span {
+    position: relative;
+    padding: .72em 1.78em;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #333;
+    background: #fff;
+}
+
+.agency-content {
+    max-width: 351px;
+}
+
+.top img,
+.top h2 {
+    vertical-align: middle;
+}
+
+.union {
+    min-width: 18em;
+    max-width: 351px;
+    padding: 1em 0;
+    text-align: center;
+    
+}

@@ -1,0 +1,91 @@
+.banner {
+    height: 525px;
+    background-image: url(../images/product/banner-m.jpg);
+    background-size: 100vw 525px;
+}
+
+.banner .container,
+.banner .row {
+    height: 100%;
+}
+
+.banner-left {
+    display: inline-block;
+    margin-left: 1em;
+    vertical-align: middle;
+}
+
+.banner-left+span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.banner-line {
+    width: 61.666667%;
+    border-top: 2px solid #CFA56D;
+    margin: 33px auto 25px;
+}
+
+
+.smallLogo img {
+    width: 44px;
+}
+
+        .absolute {
+            position: absolute;
+        }
+        .top-130 {
+            top: 130px;
+        }
+        .content-container+.content-container {
+            padding-top: 91px;
+        }
+        .main+.main {
+            border-top: 1px solid #ccc;
+        }
+        .content {
+            max-width: 990px;
+            margin: 0 auto;
+        }
+        
+        .content .title {
+            display: table;
+        }
+        
+        .smallLogo,
+        .content .title p {
+            display: table-cell;
+        }
+        
+        .content .title .smallLogo+p {
+            padding-left: 20px;;
+            line-height: 1;
+        }
+        
+        .content .title p span {
+            vertical-align: -.45ex;
+        }
+.top-130 {
+    top: 130px;
+}
+.left-30 {
+    left: 30px;
+}
+
+.mar-t-59{margin-top:59px;}
+.mar-t-42-b-40{margin-top:42px;margin-bottom:40px;}
+.mar-t-40{margin-top:40px;}
+.mar-b-48 {margin-bottom: 48px;}
+.pad-b-59{padding-bottom:59px;}
+.font-0{font-size: 0px;}
+.font-16{font-size: 16px;}
+.font-60{font-size: 60px;}
+.font-20{font-size: 20px;}
+.font-44{font-size: 44px;}
+.font-40{font-size: 40px;}
+.font-24{font-size: 24px;}
+.font-26 {font-size: 26px;}
+
+.line-height-36 {line-height :36px;}
+.line-height-60{line-height: 60px;}
