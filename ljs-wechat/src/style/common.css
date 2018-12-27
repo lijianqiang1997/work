@@ -1,0 +1,129 @@
+@import 'iconfont.css';
+.icon,.iconfont{
+  font-family:"iconfont" !important;
+  font-size: inherit;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/**********公用代码**********/
+
+page {
+    font  : 30rpx/1 "pingfangsc-regualr", "microsoft yahei", "\5FAE\8F6F\96C5\9ED1";
+    color : #333;
+}
+
+/******容器******/
+
+.ljs-container {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+/******flex布局******/
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+/**主轴对齐方式**/
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-center {
+    justify-content: center;
+}
+/**交叉轴对齐方式**/
+.align-start {
+    align-items: flex-start;
+}
+.align-center {
+    align-items: center;
+}
+
+/******背景颜色******/
+
+.bg-custom {
+    background-image: linear-gradient(90deg, #4FBEFF, #8E4CFF);
+}
+.bg-white {
+    background-color: #fff;
+}
+
+/******文本相关******/
+.font-small{
+    font-size: 20rpx;
+}
+.text-bold {
+    font-weight: bold;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.text-warnning {
+    color: #EE3C48;
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: black;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.vm {
+    vertical-align: middle;
+}
+
+/******按钮******/
+
+.btn {
+    border-radius: 751rpx;
+    overflow: hidden;
+    line-height  : 80rpx;
+    white-space: nowrap;
+    text-align   : center;
+    box-sizing: border-box;
+}
+/******形状******/
+.circle {
+    border-radius: 50%;
+}
+.circle image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/**塑胶轨道**/
+.plastic {
+    border-radius: 751rpx;
+    text-align   : center;
+}
+
+
+/******图片通用处理******/
+image {
+    width: 100%;
+    height: 100%;
+}
+
+/*******布局相关******/
+/**居中**/
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}

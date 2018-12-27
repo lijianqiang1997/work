@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/article/question/main"
+    ],
+    "window": {
+        "backgroundTextStyle"         : "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText"      : "蓝晶社",
+        "navigationBarTextStyle"      : "black"
+    },
+    "modifyPages": [
+        "pages/setting/main","蓝晶社助手设置",
+        "pages/download/main","下载",
+        "pages/extension/main","推广",
+        "pages/fullImage/main","推广全屏图",
+        "pages/assistant/assistant1/main","蓝晶社助手理事",
+        "pages/assistant/assistant2/main","蓝晶社助手游客",
+        "pages/article/information/main","文章咨询",
+        "pages/article/question/main","常见问题",
+        "pages/article/send/main", "一键发圈",
+        "pages/article/university/main","蓝晶大学",
+        "pages/join/main","欢迎加入蓝晶社"
+    ]
+}
+    
+  
